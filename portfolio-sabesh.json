@@ -212,12 +212,12 @@
   ],
   "skills": [
     {
-      "name": "Python, C++, MongoDB",
+      "name": "Python, C++, MongoDB, MySQL",
       "proficiency": 100,
       "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "JavaScript, HTML, CSS",
+      "name": "JavaScript, React, Node, Express",
       "proficiency": 80,
       "proficiency_label": "Proficiency Level"
     },
