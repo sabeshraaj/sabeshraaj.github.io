@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Info -->
+    <title>Sabesh Raaj - Portfolio</title>
+    <meta name="description" content="Sabesh Raaj - A software engineer who likes to code and keep things simple just like this webpage.">
+    <meta name="author" content="Sabesh Raaj">
+
+    <!-- Open Graph Tags: The title of the page for social media sharing. It can match the title tag or be more descriptive. -->
+    <meta property="og:title" content="Sabesh Raaj">
+
+    <!-- Open Graph Tags: Typically set to "website" for static sites or "article" for content-heavy pages. -->
+    <meta property="og:type" content="website">
+
+    <!-- Open Graph Tags: The URL of the page, used to ensure link previews resolve to the correct page. -->
+    <meta property="og:url" content="127.0.0.1:5500/index.html">
+
+    <!-- Open Graph Tags: URL of an image that represents the page. Useful for link previews. -->
+    <meta property="og:image" content="127.0.0.1:5500/portfolio_media/profile.jpeg">
+
+    <!-- Open Graph Tags: Provides an alternative text for the image to improve accessibility. -->
+    <meta property="og:image:alt" content="Sabesh Raaj Profile Image">
+
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Custom Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/modern_normalize.css" />
+    <link rel="stylesheet" href="css/html5bp.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Set a theme color that matches your website's primary color -->
+    <meta name="theme-color" content="#fafafa">
+
+    <!-- Favicon for all browsers 
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    -->
+
+    <!-- Apple touch icon for iOS devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon.png">
+
+    <!-- Web app manifest for Progressive Web Apps -->
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Content Security Policy: Uncomment to enhance security by restricting where content can be loaded from (useful for preventing certain attacks like XSS). Update if adding external sources (e.g., Google Fonts, Bootstrap CDN, analytics, etc). -->
+    <!-- <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' code.jquery.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' images.examplecdn.com; "> -->
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-top flex-responsive">
+          
+            <img class="header-image"
+                 width="256"
+                 height="256"
+                 src="portfolio_media/profile.jpeg"
+                 alt="Sabesh Raaj Profile Image" />
+          
+          <div class="header-info">
+            <h1>Sabesh Raaj</h1>
+            <h2 class="header-label">CSE Undergrad</h2>
+            
+              <address>
+                <ul class="inline-list flex-responsive">
+                  
+                    <li>
+                      <a href="mailto:saravanansabeshraaj@gmail.com">saravanansabeshraaj@gmail.com</a>
+                    </li>
+                  
+                  
+                    <li>
+                      <a href="tel:++919043111924">+91-9043111924</a>
+                    </li>
+                  
+                  
+                </ul>
+              </address>
+            
+            
+              <ul class="inline-list flex-responsive">
+                
+                  <li>
+                    <a href="https://www.linkedin.com/in/sabesh-raaj-saravanan/"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn"
+                       class="link-with-icon">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-linkedin"
+     viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+</svg>
+
+                      LinkedIn
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://github.com/sabeshraaj"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub"
+                       class="link-with-icon">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-github"
+     viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+</svg>
+
+                      GitHub
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://www.instagram.com/sabesh_raaj"
+                       rel="noopener noreferrer"
+                       aria-label="Instagram"
+                       class="link-with-icon">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-instagram"
+     viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+</svg>
+
+                      Instagram
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://medium.com/@saravanansabeshraaj"
+                       rel="noopener noreferrer"
+                       aria-label="Medium"
+                       class="link-with-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="16px" height="16px" fill-rule="nonzero"><g fill="#0077cc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M24,4h-18c-1.105,0 -2,0.895 -2,2v18c0,1.105 0.895,2 2,2h18c1.105,0 2,-0.895 2,-2v-18c0,-1.105 -0.895,-2 -2,-2zM22.542,21h-5.931v-0.333l1.389,-1.222v-6.975l-3.411,8.53h-0.533l-3.806,-8.597v6.087l1.74,2.177v0.333h-4.532v-0.333l1.799,-2.177v-7.242l-1.599,-1.999c0,0 0,-0.289 0,-0.244h4.376l3.399,7.353l2.932,-7.353h4.154v0.244l-1.519,1.277v8.919l1.542,1.222z"></path></g></g></svg>
+                      Medium
+                    </a>
+                  </li>
+                
+              </ul>
+            
+            <p class="header-summary">A software engineer who likes to code and keep things simple just like this webpage.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-content">
+      <div class="container">
+        <main>
+          
+            <section>
+              <h2 class="section-heading">Work Experience</h2>
+              
+                <section>
+                  <h3>
+                    
+                      Summer Research Intern at <a href="https://www.nitt.edu/home/academics/departments/ca/facultymca/ashwinth/">NIT Tiruchirapalli</a>
+                    
+                  </h3>
+                  
+                    <p class="section-label">May 2025 - Jun 2025</p>
+                  
+                  
+                  
+                    <ul>
+                      <li>Worked in developing a multilingual voice interface with speech-to-text, text-to-speech, and speech translation using Whisper AI, AI4Bharat, IndicSTT/TTS tools, and Sarvam AI, with audio preprocessing via Demucs.</li><li>Decoded communication protocol of a smart wearable device using Bleak (Python) and nRF Connect, streamed data to MongoDB, and built a voice-activated React dashboard.</li><li>Used blender to construct and render a 3D eye model.</li>
+                    </ul>
+                  
+                </section>
+              
+            </section>
+          
+
+          
+            <section>
+              <h2 class="section-heading">Projects</h2>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/sabeshraaj/razorpay-integration">Razorpay Payment Gateway Integration</a>
+                    
+                  </h3>
+                  <p>Short summary about my first project</p>
+                  
+                    <ul>
+                      <li>Developed a full-stack web application with Razorpay Payment Gateway integration for secure online transactions.</li><li>Implemented product listing, order creation, payment processing, and signature verification with a success confirmation flow.</li><li>Enhanced user experience through an intuitive checkout interface and multi-item cart system for seamless purchases.</li>
+                    </ul>
+                  
+                  
+                    <div class="gallery main-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Razorpay1.jpeg"
+                               alt="Checkout Page">
+                          <figcaption>Checkout Page</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Razorpay2.jpeg"
+                               alt="POSTMAN testing">
+                          <figcaption>POSTMAN testing</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Razorpay3.jpeg"
+                               alt="Razorpay Test Card">
+                          <figcaption>Razorpay Test Card</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/sabeshraaj/Threat-Intelligence-Extractor">Threat Intelligence Extractor</a>
+                    
+                  </h3>
+                  <p>Short summary about my second project</p>
+                  
+                    <ul>
+                      <li>Contributed in developing a threat intelligence extractor tool to collect cybersecurity data such as IoCs, TTPs, threat actors, targeted entities, and malware from intelligence reports.</li><li>Developed a knowledge base to organize and analyze extracted threat information for deeper insights.</li><li>Implemented risk mitigation techniques to help prevent cybersecurity threats and attacks based on analyzed data.</li>
+                    </ul>
+                  
+                  
+                    <div class="gallery main-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Threat1.jpg"
+                               alt="Dashboard">
+                          <figcaption>Dashboard</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Threat2.jpg"
+                               alt="Knowledge Base">
+                          <figcaption>Knowledge Base</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Threat3.jpg"
+                               alt="Knowledge Graph">
+                          <figcaption>Knowledge Graph</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/sabeshraaj/hardware-based-two-factor-authentication">Hardware based 2 Factor Authentication</a>
+                    
+                  </h3>
+                  <p>Built a hardware TOTP generator with ESP32 and OLED display for secure two-factor authentication.</p>
+                  
+                    <ul>
+                      <li>Developed a hardware-based TOTP generator using an ESP32 microcontroller for secure authentication.</li><li>Designed the device to generate TOTP codes compatible with standard two-factor authentication systems.</li><li>Integrated an OLED display to show codes, enhancing usability and security for authentication processes.</li>
+                    </ul>
+                  
+                  
+                    <div class="gallery main-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Hardware1.jpeg"
+                               alt="Hardware Setup">
+                          <figcaption>Hardware Setup</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Hardware2.png"
+                               alt="Pin Diagram">
+                          <figcaption>Pin Diagram</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Hardware3.jpg"
+                               alt="Dashboard">
+                          <figcaption>Dashboard</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/sabeshraaj/hardware-based-two-factor-authentication">Contactless Doorbell with Face Detection</a>
+                    
+                  </h3>
+                  <p>Built a hardware TOTP generator with ESP32 and OLED display for secure two-factor authentication.</p>
+                  
+                    <ul>
+                      <li>Developed a contactless doorbell system achieving 93% accuracy using an Arduino UNO integrated with Python.</li><li>Implemented live video capture, face detection, and face recognition for visitor identification.</li><li>Integrated the gTTS (Google Text-to-Speech) module to announce the name of the recognized individual.</li>
+                    </ul>
+                  
+                  
+                    <div class="gallery main-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Contactless1.jpeg"
+                               alt="Hardware Setup 1">
+                          <figcaption>Hardware Setup 1</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Contactless2.jpeg"
+                               alt="Pin Diagram">
+                          <figcaption>Pin Diagram</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Contactless3.jpeg"
+                               alt="Hardware Setup 2">
+                          <figcaption>Hardware Setup 2</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/sabeshraaj/SportVidClassifier">Sports Video Data Classification</a>
+                    
+                  </h3>
+                  <p>A deep learning project that classifies sports activities using YOLOv5 and performs pose estimation on videos to analyze athlete movements.</p>
+                  
+                    <ul>
+                      <li>Trains a YOLOv5 model to recognize and classify different sports from video footage.</li><li>Uses MediaPipe to detect and visualize human body landmarks, calculating joint angles during movements.</li><li>Plots training accuracy/loss metrics and generates annotated videos showing poses and motion dynamics.</li>
+                    </ul>
+                  
+                  
+                    <div class="gallery main-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Sports1.jpeg"
+                               alt="Skeletonization">
+                          <figcaption>Skeletonization</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Sports2.jpeg"
+                               alt="Loss and Accuracy Plot">
+                          <figcaption>Loss and Accuracy Plot</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+            </section>
+          
+
+          
+            <section>
+              <h2 class="section-heading">Volunteer Experience</h2>
+              
+                <section>
+                  <h3>
+                    
+                      Core Commitee Member at Potential (Robotics Club of SNU Chennai)
+                    
+                  </h3>
+                  
+                    <p class="section-label">04/2025 - 08/2023</p>
+                  
+                  
+                  
+                    <ul>
+                      <li>Organized and conducted a seminar on introduction to different type of computational boards to peers and juniors as a core committee member of the robotics club</li>
+                    </ul>
+                  
+                </section>
+              
+            </section>
+          
+
+          
+        </main>
+
+        <!-- Sidebar Section -->
+        <aside>
+          
+            <section>
+              <h2 class="section-heading">Education</h2>
+              
+                <section>
+                  <h3>
+                    
+                      Shiv Nadar University Chennai
+                    
+                  </h3>
+                  <p class="section-label">Chennai</p>
+                  
+                    <h4>Degrees</h4>
+                    <ul>
+                      <li>B.Tech in CSE with IoT Specialization</li>
+                    </ul>
+                  
+                  
+                  
+                    <p>
+                      
+                      <span class="block">Cumulative GPA: 8.58</span>
+                      <span class="block">Graduation Date: 01/06/2026</span>
+                    </p>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      Velammal Vidyalaya
+                    
+                  </h3>
+                  <p class="section-label">Mel- Ayanambakkam, Chennai</p>
+                  
+                    <h4>Degrees</h4>
+                    <ul>
+                      <li>Senior Secondary School</li>
+                    </ul>
+                  
+                  
+                    <h4>Honors</h4>
+                    <ul>
+                      <li>Scholarship Recipient</li>
+                    </ul>
+                  
+                  
+                    <p>
+                      
+                      <span class="block">Cumulative GPA: 8.46</span>
+                      <span class="block">Graduation Date: 01/06/2022</span>
+                    </p>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      Velammal Vidyalaya
+                    
+                  </h3>
+                  <p class="section-label">Mel- Ayanambakkam, Chennai</p>
+                  
+                    <h4>Degrees</h4>
+                    <ul>
+                      <li>Higher Secondary School</li>
+                    </ul>
+                  
+                  
+                    <h4>Honors</h4>
+                    <ul>
+                      <li>Scholarship Recipient</li>
+                    </ul>
+                  
+                  
+                    <p>
+                      
+                      <span class="block">Cumulative GPA: 9.26</span>
+                      <span class="block">Graduation Date: 01/06/2020</span>
+                    </p>
+                  
+                </section>
+              
+            </section>
+          
+
+          
+            <section>
+              <h2 class="section-heading">Skills</h2>
+              <ul class="unstyled-list">
+                
+                  <li>
+                    <h3>Python, C++, MongoDB</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-100"
+                           role="meter"
+                           aria-valuenow="100"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">Proficiency Level</span>
+                      </div>
+                    </div>
+                  </li>
+                
+                  <li>
+                    <h3>JavaScript, HTML, CSS</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-80"
+                           role="meter"
+                           aria-valuenow="80"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">Proficiency Level</span>
+                      </div>
+                    </div>
+                  </li>
+                
+                  <li>
+                    <h3>Embedded C, Linux, Go </h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-75"
+                           role="meter"
+                           aria-valuenow="75"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">Comfortable</span>
+                      </div>
+                    </div>
+                  </li>
+                
+              </ul>
+            </section>
+          
+
+          
+            <section>
+              <h2 class="section-heading">Languages</h2>
+              <ul class="unstyled-list">
+                
+                  <li>
+                    <h3>Tamil</h3>
+                    <p class="section-label">Native speaker</p>
+                  </li>
+                
+                  <li>
+                    <h3>English</h3>
+                    <p class="section-label">Professional Working Proficiency</p>
+                  </li>
+                
+                  <li>
+                    <h3>Hindi</h3>
+                    <p class="section-label">Professional Working Proficiency</p>
+                  </li>
+                
+              </ul>
+            </section>
+          
+
+          
+        </aside>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <p>© 2025 Sabesh Raaj. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,246 @@
+{
+  "name": "Sabesh Raaj",
+  "label": "CSE Undergrad",
+  "image_path": "portfolio_media/profile.jpeg",
+  "contact": {
+    "email": "saravanansabeshraaj@gmail.com",
+    "phone": "+91-9043111924",
+    "location": ""
+  },
+  "summary": "A software engineer who likes to code and keep things simple just like this webpage.",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sabesh-raaj-saravanan/",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/sabeshraaj",
+      "svg_path": "img/github.svg"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/sabesh_raaj",
+      "svg_path": "img/instagram.svg"
+    },
+    {
+      "label": "Medium",
+      "url": "https://medium.com/@saravanansabeshraaj",
+      "svg_path": "img/medium.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "NIT Tiruchirapalli",
+      "position": "Summer Research Intern",
+      "url": "https://www.nitt.edu/home/academics/departments/ca/facultymca/ashwinth/",
+      "start_date": "May 2025",
+      "end_date": "Jun 2025",
+      "summary": "",
+      "highlights": [
+        "Worked in developing a multilingual voice interface with speech-to-text, text-to-speech, and speech translation using Whisper AI, AI4Bharat, IndicSTT/TTS tools, and Sarvam AI, with audio preprocessing via Demucs.",
+        "Decoded communication protocol of a smart wearable device using Bleak (Python) and nRF Connect, streamed data to MongoDB, and built a voice-activated React dashboard.",
+        "Used blender to construct and render a 3D eye model."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Razorpay Payment Gateway Integration",
+      "summary": "Short summary about my first project",
+      "url": "https://github.com/sabeshraaj/razorpay-integration",
+      "highlights": [
+        "Developed a full-stack web application with Razorpay Payment Gateway integration for secure online transactions.",
+        "Implemented product listing, order creation, payment processing, and signature verification with a success confirmation flow.",
+        "Enhanced user experience through an intuitive checkout interface and multi-item cart system for seamless purchases."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/Razorpay1.jpeg",
+          "caption": "Checkout Page"
+        },
+        {
+          "img_path": "portfolio_media/Razorpay2.jpeg",
+          "caption": "POSTMAN testing"
+        },
+        {
+          "img_path": "portfolio_media/Razorpay3.jpeg",
+          "caption": "Razorpay Test Card"
+        }
+      ]
+    },
+    {
+      "title": "Threat Intelligence Extractor",
+      "summary": "Short summary about my second project",
+      "url": "https://github.com/sabeshraaj/Threat-Intelligence-Extractor",
+      "highlights": [
+        "Contributed in developing a threat intelligence extractor tool to collect cybersecurity data such as IoCs, TTPs, threat actors, targeted entities, and malware from intelligence reports.",
+        "Developed a knowledge base to organize and analyze extracted threat information for deeper insights.",
+        "Implemented risk mitigation techniques to help prevent cybersecurity threats and attacks based on analyzed data."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/Threat1.jpg",
+          "caption": "Dashboard"
+        },
+        {
+          "img_path": "portfolio_media/Threat2.jpg",
+          "caption": "Knowledge Base"
+        },
+        {
+          "img_path": "portfolio_media/Threat3.jpg",
+          "caption": "Knowledge Graph"
+        }
+      ]
+    },
+    {
+      "title": "Hardware based 2 Factor Authentication",
+      "summary": "Built a hardware TOTP generator with ESP32 and OLED display for secure two-factor authentication.",
+      "url": "https://github.com/sabeshraaj/hardware-based-two-factor-authentication",
+      "highlights": [
+        "Developed a hardware-based TOTP generator using an ESP32 microcontroller for secure authentication.",
+        "Designed the device to generate TOTP codes compatible with standard two-factor authentication systems.",
+        "Integrated an OLED display to show codes, enhancing usability and security for authentication processes."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/Hardware1.jpeg",
+          "caption": "Hardware Setup"
+        },
+        {
+          "img_path": "portfolio_media/Hardware2.png",
+          "caption": "Pin Diagram"
+        },
+        {
+          "img_path": "portfolio_media/Hardware3.jpg",
+          "caption": "Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Contactless Doorbell with Face Detection",
+      "summary": "Built a hardware TOTP generator with ESP32 and OLED display for secure two-factor authentication.",
+      "url": "https://github.com/sabeshraaj/hardware-based-two-factor-authentication",
+      "highlights": [
+        "Developed a contactless doorbell system achieving 93% accuracy using an Arduino UNO integrated with Python.",
+        "Implemented live video capture, face detection, and face recognition for visitor identification.",
+        "Integrated the gTTS (Google Text-to-Speech) module to announce the name of the recognized individual."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/Contactless1.jpeg",
+          "caption": "Hardware Setup 1"
+        },
+        {
+          "img_path": "portfolio_media/Contactless2.jpeg",
+          "caption": "Pin Diagram"
+        },
+        {
+          "img_path": "portfolio_media/Contactless3.jpeg",
+          "caption": "Hardware Setup 2"
+        }
+      ]
+    },
+    {
+      "title": "Sports Video Data Classification",
+      "summary": "A deep learning project that classifies sports activities using YOLOv5 and performs pose estimation on videos to analyze athlete movements.",
+      "url": "https://github.com/sabeshraaj/SportVidClassifier",
+      "highlights": [
+        "Trains a YOLOv5 model to recognize and classify different sports from video footage.",
+        "Uses MediaPipe to detect and visualize human body landmarks, calculating joint angles during movements.",
+        "Plots training accuracy/loss metrics and generates annotated videos showing poses and motion dynamics."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/Sports1.jpeg",
+          "caption": "Skeletonization"
+        },
+        {
+          "img_path": "portfolio_media/Sports2.jpeg",
+          "caption": "Loss and Accuracy Plot"
+        }
+      ]
+    }
+
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "Potential (Robotics Club of SNU Chennai)",
+      "position": "Core Commitee Member",
+      "url": "",
+      "start_date": "04/2025",
+      "end_date": "08/2023",
+      "summary": "",
+      "highlights": [
+        "Organized and conducted a seminar on introduction to different type of computational boards to peers and juniors as a core committee member of the robotics club"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Shiv Nadar University Chennai",
+      "location": "Chennai",
+      "url": "",
+      "degrees": [
+        "B.Tech in CSE with IoT Specialization"
+      ],
+      "honors": [],
+      "gpa_cumulative": "8.58",
+      "graduation_date": "01/06/2026"
+    },
+    {
+      "institution": "Velammal Vidyalaya",
+      "location": "Mel- Ayanambakkam, Chennai",
+      "url": "",
+      "degrees": ["Senior Secondary School"],
+      "honors": ["Scholarship Recipient"],
+      "gpa_cumulative": "8.46",
+      "graduation_date": "01/06/2022"
+    },
+    {
+      "institution": "Velammal Vidyalaya",
+      "location": "Mel- Ayanambakkam, Chennai",
+      "url": "",
+      "degrees": ["Higher Secondary School"],
+      "honors": ["Scholarship Recipient"],
+      "gpa_cumulative": "9.26",
+      "graduation_date": "01/06/2020"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python, C++, MongoDB",
+      "proficiency": 100,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "JavaScript, HTML, CSS",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Embedded C, Linux, Go ",
+      "proficiency": 75,
+      "proficiency_label": "Comfortable"
+    }
+  ],
+  "interests": [],
+  "languages": [
+    {
+      "language": "Tamil",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Professional Working Proficiency"
+    }
+  ],
+  "references": []
+}
