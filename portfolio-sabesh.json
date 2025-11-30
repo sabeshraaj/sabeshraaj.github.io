@@ -50,7 +50,7 @@
   "projects": [
     {
       "title": "CI/CD Pipeline Automation",
-      "summary": "BUilt a end to end CICD Pipeline",
+      "summary": "Built a end to end CICD Pipeline",
       "url": "https://github.com/sabeshraaj/cicd-demo",
       "highlights": [
         "Built an automated CI/CD pipeline for a Spring Boot application by configuring Maven builds, version-controlled updates via GitHub, and Jenkins triggers using an Ngrok webhook.",
