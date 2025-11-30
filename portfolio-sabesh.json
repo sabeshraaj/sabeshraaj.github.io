@@ -49,8 +49,31 @@
   ],
   "projects": [
     {
+      "title": "CI/CD Pipeline Automation",
+      "summary": "BUilt a end to end CICD Pipeline",
+      "url": "https://github.com/sabeshraaj/cicd-demo",
+      "highlights": [
+        "Built an automated CI/CD pipeline for a Spring Boot application by configuring Maven builds, version-controlled updates via GitHub, and Jenkins triggers using an Ngrok webhook.",
+        "Automated Docker image creation, pushed images to AWS ECR, and deployed updates to AWS ECS tasks with new public endpoints generated for each release."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/CICD1.jpeg",
+          "caption": "Jenkins Build"
+        },
+        {
+          "img_path": "portfolio_media/CICD2.jpeg",
+          "caption": "NGROK Webhook"
+        },
+        {
+          "img_path": "portfolio_media/CICD3.jpeg",
+          "caption": "AWS Cluster"
+        }
+      ]
+    },
+    {
       "title": "Razorpay Payment Gateway Integration",
-      "summary": "Short summary about my first project",
+      "summary": "Created a nodejs application with razorpay payment gateway",
       "url": "https://github.com/sabeshraaj/razorpay-integration",
       "highlights": [
         "Developed a full-stack web application with Razorpay Payment Gateway integration for secure online transactions.",
@@ -189,7 +212,7 @@
       ],
       "honors": [],
       "gpa_cumulative": "8.58",
-      "graduation_date": "01/06/2026"
+      "graduation_date": "05/07/2026"
     },
     {
       "institution": "Velammal Vidyalaya",
